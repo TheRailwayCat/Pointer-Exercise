@@ -11,19 +11,19 @@ int main() {
   ppCaterpie = &pCaterpie;
   //estabalishing pointer for pointer of Caterpie
 
-  printf("Value of Caterpie: %d", Caterpie);
+  printf("Value of Caterpie: %d\n", Caterpie);
   //SHould print the value of Caterpie
 
-  printf("\nAddress of Caterpie: %p", (void*)&Caterpie);
+  printf("Address of Caterpie: %p\n", (void*)&Caterpie);
   //Should print the Address of Caterpie
 
-  printf("\nValue of pCaterpie: %p", (void*)pCaterpie);
+  printf("Value of pCaterpie: %p\n", (void*)pCaterpie);
   //Should print the value of the Pointer of Caterpie which should in theory be the same as above since that was what it was declared as
 
-  printf("\nAddress of pCaterpie: %p", (void*)&pCaterpie);
+  printf("Address of pCaterpie: %p\n", (void*)&pCaterpie);
   //Should print the Address of the Pointer of Caterpie
 
-  printf("\nValue of ppCaterpie: %p", (void*)ppCaterpie);
+  printf("Value of ppCaterpie: %p\n", (void*)ppCaterpie);
   //Should print the value of the pointer of the Pointer of Caterpie which should in theory be equal to the value above
 
   return 0;
